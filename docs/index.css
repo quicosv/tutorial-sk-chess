@@ -7,26 +7,34 @@ counter-reset: en2;
 article {
 counter-increment: en2;
 }
-h2::before {
+h2{
 counter-reset: en3;
-content: counter(en2)+'. ';
+}
+h2::before {
+content: counter(en2) '. ';
+}
+h3{
+counter-reset: en4;
 }
 h3::before {
 counter-increment: en3;
-counter-reset: en4;
-content: counter(en2)+'.'+counter(en3)+'. ';
+content: counter(en2) '.' counter(en3) '. ';
+}
+h4{
+counter-reset: en5;
 }
 h4::before {
 counter-increment: en4;
-counter-reset: en5;
-content: counter(en2)+'.'+counter(en3)+'.'+counter(en4)+'. ';
+content: counter(en2) '.' counter(en3) '.' counter(en4) '. ';
+}
+h5{
+counter-reset: en6;
 }
 h5::before {
 counter-increment: en5;
-counter-reset: en6;
-content: counter(en2)+'.'+counter(en3)+'.'+counter(en4)+'.'+counter(en5)+'. ';
+content: counter(en2) '.' counter(en3) '.' counter(en4) '.' counter(en5) '. ';
 }
 h6::before {
 counter-increment: en6;
-content: counter(en2)+'.'+counter(en3)+'.'+counter(en4)+'.'+counter(en5)+'.'+counter(en6)+'. ';
+content: counter(en2) '.' counter(en3) '.' counter(en4) '.' counter(en5) '.' counter(en6) '. ';
 }
