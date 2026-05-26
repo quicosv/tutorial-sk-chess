@@ -1,0 +1,237 @@
+King	Rey	1	2
+Kings	Reyes	1	2
+white king	rey blanco	1	2
+white kings	reyes blancos	1	2
+black king	rey negro	1	2
+black kings	reyes negros	1	2
+Queen	Dama	1	2
+Queens	Damas	1	2
+white queen	dama blanca	1	2
+white queens	damas blancas	1	2
+black queen	dama negra	1	2
+black queens	damas negras	1	2
+Rook	Torre	1	2
+Rooks	Torres	1	2
+white rook	torre blanca	1	2
+white rooks	torres blancas	1	2
+black rook	torre negra	1	2
+black rooks	torres negras	1	2
+Bishop	Alfil	1	2
+Bishops	Alfiles	1	2
+white bishop	alfil blanco	1	2
+white bishops	alfiles blancos	1	2
+black bishop	alfil negro	1	2
+black bishops	alfiles negros	1	2
+Knight	Caballo	1	2
+Knights	Caballos	1	2
+Nights	Caballos	1	2
+white knight	caballo blanco	1	2
+white knights	caballos blancos	1	2
+black knight	caballo negro	1	2
+black knights	caballos negros	1	2
+Pawn	Peón	1	2
+Pawns	Peones	1	2
+white pawn	peón blanco	1	2
+white pawns	peones blancos	1	2
+black pawn	peón negro	1	2
+black pawns	peones negros	1	2
+cesar	césar	1	2
+cesar1	César 1	1	2
+cesar2	César 2	1	2
+cesar3	César 3	1	2
+cesar4	César 4	1	2
+cesar5	César 5	1	2
+cesar6	César 6	1	2
+cesar7	César 7	1	2
+cesar8	César 8	1	2
+felix	félix	1	2
+felix1	Félix 1	1	2
+felix2	Félix 2	1	2
+felix3	Félix 3	1	2
+felix4	Félix 4	1	2
+felix5	Félix 5	1	2
+felix6	Félix 6	1	2
+felix7	Félix 7	1	2
+felix8	Félix 8	1	2
+gustav	gustavo	1	2
+gustav1	Gustavo 1	1	2
+gustav2	Gustavo 2	1	2
+gustav3	Gustavo 3	1	2
+gustav4	Gustavo 4	1	2
+gustav5	Gustavo 5	1	2
+gustav6	Gustavo 6	1	2
+gustav7	Gustavo 7	1	2
+gustav8	Gustavo 8	1	2
+hector	héctor	1	2
+hector1	Héctor 1	1	2
+hector2	Héctor 2	1	2
+hector3	Héctor 3	1	2
+hector4	Héctor 4	1	2
+hector5	Héctor 5	1	2
+hector6	Héctor 6	1	2
+hector7	Héctor 7	1	2
+hector8	Héctor 8	1	2
+Kingside castling	Enroque corto	1	2
+Queenside castling	Enroque largo	1	2
+check	jaque	1	2
+checkmate	mate	1	2
+promotes to	promociona a	1	2
+Null move	Jugada nula	1	2
+takes	por	1	2
+on	en	1	2
+and	y	1	2
+File	Archivo	1	2
+Open	Abrir	1	2
+Open PGN file	Abrir archivo PGN	1	2
+Save Game	Guardar Partida	1	2
+Game Header	Etiquetas de la Partida	1	2
+Event	Torneo	1	2
+Site	Lugar	1	2
+Date	Fecha	1	2
+Round	Ronda	1	2
+White	Blancas	1	2
+Black	Negras	1	2
+Result	Resultado	1	2
+WhiteElo	Elo de blancas	1	2
+BlackElo	Elo de negras	1	2
+Save PGN file	Guardar archivo PGN	1	2
+Paste Game	Pegar Partida	1	2
+No text in clipboard	No hay texto en el portapapeles	1	2
+Pasted	Pegado	1	2
+Selected first game	Primera partida seleccionada	1	2
+games	partidas	1	2
+Copy Game	Copiar Partida	1	2
+Game copied to clipboard	Partida copiada al portapapeles	1	2
+Game	Partida	1	2
+New Game	Nueva Partida	1	2
+New game started	Nueva partida iniciada	1	2
+Delete Move	Borrar Jugada	1	2
+Move deleted	Jugada borrada	1	2
+No move to delete	No hay jugada para borrar	1	2
+Flip Board	Rotar Tablero	1	2
+Board flipped to black's perspective	Tablero rotado a la perspectiva de las negras	1	2
+Board flipped to white's perspective	Tablero rotado a la perspectiva de las blancas	1	2
+Load Engine	Cargar Motor	1	2
+Open Chess Engine	Abrir Motor de Ajedrez	1	2
+Engine loaded successfully	Motor cargado con éxito	1	2
+Download Engine	Descargar Motor	1	2
+Starting engine download. Please wait.	Iniciando la descarga del motor. Espere por favor.	1	2
+Download failed	Descarga fallida	1	2
+Toggle Engine On/Off	Activar o desactivar motor	1	2
+Engine enabled	Motor activado	1	2
+Engine disabled	Motor desactivado	1	2
+Loading engine suggestions	Cargando sugerencias del motor	1	2
+Configure Engine	Configurar Motor	1	2
+Number of Principal Variations	Número de Variantes Principales	1	2
+Number of Moves to Display	Número de Jugadas a Mostrar	1	2
+Engine configured with	Motor configurado con	1	2
+variations	variantes	1	2
+moves to display	jugadas a mostrar	1	2
+Toggle Training Mode	Activar o desactivar Modo de Entrenamiento	1	2
+Training Mode	Modo de Entrenamiento	1	2
+Training mode enabled	Modo de entrenamiento activado	1	2
+Training mode disabled	Modo de entrenamiento desactivado	1	2
+Incorrect move	Jugada incorrecta	1	2
+Show Engine Lines	Mostrar Líneas del Motor	1	2
+Engine is not enabled	El motor no está activado	1	2
+No engine analysis availabe yet.	Aún no hay análisis disponible.	1	2
+Engine Analysis	Análisis del motor	1	2
+Line	Línea	1	2
+Notation till now	Notación hasta ahora	1	2
+Edit Annotation	Editar Comentario	1	2
+Enter annotation	Escribe el comentario	1	2
+Show Position in Text	Mostrar Posición en Texto	1	2
+Current Position	Posición Actual	1	2
+Press piece keys for position information	Pulsa las teclas de las piezas para información de la posición	1	2
+White pieces	Piezas blancas	1	2
+Black pieces	Piezs negras	1	2
+Side to move	Bando que juega	1	2
+All white pieces	Todas las piezas blancas	1	2
+All black pieces	Todas las piezas negras	1	2
+White to move	Turno de las blancas	1	2
+Black to move	Turno de las negras	1	2
+Copy FEN	Copiar FEN	1	2
+FEN copied to clipboard	Copiar FEN al portapapeles	1	2
+Paste FEN	Pegar FEN	1	2
+Invalid FEN string	FEN inválido	1	2
+Position set from FEN	Posición configurada a partir del FEN	1	2
+Position Setup	Configuración de Posición	1	2
+Game State	Estado de la Partida	1	2
+White King Side	Enroque Corto de las Blancas	1	2
+White Queen Side	Enroque Largo de las Blancas	1	2
+Black King Side	Enroque Corto de las Negras	1	2
+Black Queen Side	Enroque Largo de las Negras	1	2
+Board cleared	Tablero vaciado	1	2
+Position set up successfully	Posición configurada con éxito	1	2
+Warning	Advertencia	1	2
+The position appears to be illegal (e.g., Kings touching or side to move can capture King). Continue anyway?	La posición paree ilegal (por ejemplo, los reyes se tocan o el bando que tiene que mover puede capturar al rey. ¿Continuar de todas formas?	1	2
+Invalid Position	Posición no válida	1	2
+White King is Missing!	¡Falta el rey blanco!	1	2
+Black King is missing!	¡Falta el rey negro!	1	2
+Search by FEN	Buscar por FEN	1	2
+Feature Restricted	Característica Restringida	1	2
+Please upgrade to pro to use this feature	Por favor, actualice a pro para usar esta característica	1	2
+Speak	Hablar	1	2
+Speak Position	Decir Posición	1	2
+Speak Annotation	Decir Comentario	1	2
+Speak Last Move	Decir Última Jugada	1	2
+Select Game	seleccionar partida	1	2
+Game area	Área de la partida	1	2
+Annotation	Comentario	1	2
+Board	Tablero	1	2
+Engine Suggestions	Sugerencias del motor	1	2
+Load a PGN file to view games	Cargue un archivo PGN para ver partidas	1	2
+Beginning of the game	Inicio de la partida	1	2
+No move	No hay jugada	1	2
+Already at the beginnig of the game	Ya está al principio de la partida	1	2
+End of the game	Fin de la partida	1	2
+No next move available	No hay siguiente jugada disponible	1	2
+No annotation for this move	No hay comentario para esta jugada	1	2
+Unknown	Desconocido	1	2
+Engine is disabled. Enable engine to see suggestions.	El motor está desactivado. Active un motor para ver sugerencias.	1	2
+OK	Aceptar	1	2
+Cancel	Cancelar	1	2
+Side Line	Variante	1	2
+Mainline	Línea principal	1	2
+Kingside	Enroque corto	1	2
+Queenside	Enroque largo	1	2
+Clear Board	Vaciar Tablero	1	2
+Initial Position	Posición Inicial	1	2
+Set Position	Configurar Posición	1	2
+Promote to mainline	Ir a la línea principal	1	2
+Good move	Buena	1	2
+Mistake	Mala	1	2
+Brilliant move	Brillante	1	2
+Blunder	Perdedora	1	2
+Speculative move	Interesante	1	2
+Dubious move	Dudosa	1	2
+Forced move	Forzada	1	2
+Singular move	Única	1	2
+Worst move	La peor	1	2
+Drawish position	Posición de tablas	1	2
+Quiet position	Posición tranquila	1	2
+Active position	Posición activa	1	2
+Unclear position	Poco claro	1	2
+White has a slight advantage	Ligera ventaja blanca	1	2
+Black has a slight advantage	Ligera ventaja negra	1	2
+White has a moderate advantage	Ventaja blanca	1	2
+Black has a moderate advantage	Ventaja negra	1	2
+White has a decisive advantage	Ventaja decisiva blanca	1	2
+Black has a decisive advantage	Ventaja decisiva negra	1	2
+White is in zugzwang	Blancas en zugzwang	1	2
+Black is in zugzwang	Negras en zugzwang	1	2
+White has moderate counterplay	Contrajuego moderado blanco	1	2
+Black has moderate counterplay	Contrajuego moderado negro	1	2
+White has decisive counterplay	Contrajuego decisivo blanco	1	2
+Black has decisive counterplay	Contrajuego decisivo negro	1	2
+White is under moderate time pressure	Blancas apuradas de tiempo	1	2
+Black is under moderate time pressure	Negras apuradas de tiempo	1	2
+White is under severe time pressure	Blancas muy apuradas de tiempo	1	2
+Black is under severe time pressure	Negras muy apuradas de tiempo	1	2
+Novelty	Novedad	1	2
+Move Decision	Decisión de Jugada	1	2
+Do you want to add this move to the mainline or as a side variation?	¿Quiere añadir esta jugada como línea principal o como variante?	1	2
+Castling Decision	Decisión del Enroque	1	2
+Both kingside (0-0) and queenside (0-0-0) castling are possible. Choose the desired move.	Ambos enroques son posibles. Elija el que desee.	1	2
+Choose a variation	Elija una variante	1	2
+Select a variation to continue	Seleccione una variante para continuar	1	2

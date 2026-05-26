@@ -1,0 +1,237 @@
+|King|Rey|*|*|*|1|0|
+|Kings|Reyes|*|*|*|1|0|
+|white king|rey blanco|*|*|*|1|0|
+|white kings|reyes blancos|*|*|*|1|0|
+|black king|rey negro|*|*|*|1|0|
+|black kings|reyes negros|*|*|*|1|0|
+|Queen|Dama|*|*|*|1|0|
+|Queens|Damas|*|*|*|1|0|
+|white queen|dama blanca|*|*|*|1|0|
+|white queens|damas blancas|*|*|*|1|0|
+|black queen|dama negra|*|*|*|1|0|
+|black queens|damas negras|*|*|*|1|0|
+|Rook|Torre|*|*|*|1|0|
+|Rooks|Torres|*|*|*|1|0|
+|white rook|torre blanca|*|*|*|1|0|
+|white rooks|torres blancas|*|*|*|1|0|
+|black rook|torre negra|*|*|*|1|0|
+|black rooks|torres negras|*|*|*|1|0|
+|Bishop|Alfil|*|*|*|1|0|
+|Bishops|Alfiles|*|*|*|1|0|
+|white bishop|alfil blanco|*|*|*|1|0|
+|white bishops|alfiles blancos|*|*|*|1|0|
+|black bishop|alfil negro|*|*|*|1|0|
+|black bishops|alfiles negros|*|*|*|1|0|
+|Knight|Caballo|*|*|*|1|0|
+|Knights|Caballos|*|*|*|1|0|
+|Nights|Caballos|*|*|*|1|0|
+|white knight|caballo blanco|*|*|*|1|0|
+|white knights|caballos blancos|*|*|*|1|0|
+|black knight|caballo negro|*|*|*|1|0|
+|black knights|caballos negros|*|*|*|1|0|
+|Pawn|Peón|*|*|*|1|0|
+|Pawns|Peones|*|*|*|1|0|
+|white pawn|peón blanco|*|*|*|1|0|
+|white pawns|peones blancos|*|*|*|1|0|
+|black pawn|peón negro|*|*|*|1|0|
+|black pawns|peones negros|*|*|*|1|0|
+|cesar|césar|*|*|*|1|0|
+|cesar1|César 1|*|*|*|1|0|
+|cesar2|César 2|*|*|*|1|0|
+|cesar3|César 3|*|*|*|1|0|
+|cesar4|César 4|*|*|*|1|0|
+|cesar5|César 5|*|*|*|1|0|
+|cesar6|César 6|*|*|*|1|0|
+|cesar7|César 7|*|*|*|1|0|
+|cesar8|César 8|*|*|*|1|0|
+|felix|félix|*|*|*|1|0|
+|felix1|Félix 1|*|*|*|1|0|
+|felix2|Félix 2|*|*|*|1|0|
+|felix3|Félix 3|*|*|*|1|0|
+|felix4|Félix 4|*|*|*|1|0|
+|felix5|Félix 5|*|*|*|1|0|
+|felix6|Félix 6|*|*|*|1|0|
+|felix7|Félix 7|*|*|*|1|0|
+|felix8|Félix 8|*|*|*|1|0|
+|gustav|gustavo|*|*|*|1|0|
+|gustav1|Gustavo 1|*|*|*|1|0|
+|gustav2|Gustavo 2|*|*|*|1|0|
+|gustav3|Gustavo 3|*|*|*|1|0|
+|gustav4|Gustavo 4|*|*|*|1|0|
+|gustav5|Gustavo 5|*|*|*|1|0|
+|gustav6|Gustavo 6|*|*|*|1|0|
+|gustav7|Gustavo 7|*|*|*|1|0|
+|gustav8|Gustavo 8|*|*|*|1|0|
+|hector|héctor|*|*|*|1|0|
+|hector1|Héctor 1|*|*|*|1|0|
+|hector2|Héctor 2|*|*|*|1|0|
+|hector3|Héctor 3|*|*|*|1|0|
+|hector4|Héctor 4|*|*|*|1|0|
+|hector5|Héctor 5|*|*|*|1|0|
+|hector6|Héctor 6|*|*|*|1|0|
+|hector7|Héctor 7|*|*|*|1|0|
+|hector8|Héctor 8|*|*|*|1|0|
+|Kingside castling|Enroque corto|*|*|*|1|0|
+|Queenside castling|Enroque largo|*|*|*|1|0|
+|check|jaque|*|*|*|1|0|
+|checkmate|mate|*|*|*|1|0|
+|promotes to|promociona a|*|*|*|1|0|
+|Null move|Jugada nula|*|*|*|1|0|
+|takes|por|*|*|*|1|0|
+|on|en|*|*|*|1|0|
+|and|y|*|*|*|1|0|
+|File|Archivo|*|*|*|1|0|
+|Open|Abrir|*|*|*|1|0|
+|Open PGN file|Abrir archivo PGN|*|*|*|1|0|
+|Save Game|Guardar Partida|*|*|*|1|0|
+|Game Header|Etiquetas de la Partida|*|*|*|1|0|
+|Event|Torneo|*|*|*|1|0|
+|Site|Lugar|*|*|*|1|0|
+|Date|Fecha|*|*|*|1|0|
+|Round|Ronda|*|*|*|1|0|
+|White|Blancas|*|*|*|1|0|
+|Black|Negras|*|*|*|1|0|
+|Result|Resultado|*|*|*|1|0|
+|WhiteElo|Elo de blancas|*|*|*|1|0|
+|BlackElo|Elo de negras|*|*|*|1|0|
+|Save PGN file|Guardar archivo PGN|*|*|*|1|0|
+|Paste Game|Pegar Partida|*|*|*|1|0|
+|No text in clipboard|No hay texto en el portapapeles|*|*|*|1|0|
+|Pasted|Pegado|*|*|*|1|0|
+|Selected first game|Primera partida seleccionada|*|*|*|1|0|
+|games|partidas|*|*|*|1|0|
+|Copy Game|Copiar Partida|*|*|*|1|0|
+|Game copied to clipboard|Partida copiada al portapapeles|*|*|*|1|0|
+|Game|Partida|*|*|*|1|0|
+|New Game|Nueva Partida|*|*|*|1|0|
+|New game started|Nueva partida iniciada|*|*|*|1|0|
+|Delete Move|Borrar Jugada|*|*|*|1|0|
+|Move deleted|Jugada borrada|*|*|*|1|0|
+|No move to delete|No hay jugada para borrar|*|*|*|1|0|
+|Flip Board|Rotar Tablero|*|*|*|1|0|
+|Board flipped to black's perspective|Tablero rotado a la perspectiva de las negras|*|*|*|1|0|
+|Board flipped to white's perspective|Tablero rotado a la perspectiva de las blancas|*|*|*|1|0|
+|Load Engine|Cargar Motor|*|*|*|1|0|
+|Open Chess Engine|Abrir Motor de Ajedrez|*|*|*|1|0|
+|Engine loaded successfully|Motor cargado con éxito|*|*|*|1|0|
+|Download Engine|Descargar Motor|*|*|*|1|0|
+|Starting engine download. Please wait.|Iniciando la descarga del motor. Espere por favor.|*|*|*|1|0|
+|Download failed|Descarga fallida|*|*|*|1|0|
+|Toggle Engine On/Off|Activar o desactivar motor|*|*|*|1|0|
+|Engine enabled|Motor activado|*|*|*|1|0|
+|Engine disabled|Motor desactivado|*|*|*|1|0|
+|Loading engine suggestions|Cargando sugerencias del motor|*|*|*|1|0|
+|Configure Engine|Configurar Motor|*|*|*|1|0|
+|Number of Principal Variations|Número de Variantes Principales|*|*|*|1|0|
+|Number of Moves to Display|Número de Jugadas a Mostrar|*|*|*|1|0|
+|Engine configured with|Motor configurado con|*|*|*|1|0|
+|variations|variantes|*|*|*|1|0|
+|moves to display|jugadas a mostrar|*|*|*|1|0|
+|Toggle Training Mode|Activar o desactivar Modo de Entrenamiento|*|*|*|1|0|
+|Training Mode|Modo de Entrenamiento|*|*|*|1|0|
+|Training mode enabled|Modo de entrenamiento activado|*|*|*|1|0|
+|Training mode disabled|Modo de entrenamiento desactivado|*|*|*|1|0|
+|Incorrect move|Jugada incorrecta|*|*|*|1|0|
+|Show Engine Lines|Mostrar Líneas del Motor|*|*|*|1|0|
+|Engine is not enabled|El motor no está activado|*|*|*|1|0|
+|No engine analysis availabe yet.|Aún no hay análisis disponible.|*|*|*|1|0|
+|Engine Analysis|Análisis del motor|*|*|*|1|0|
+|Line|Línea|*|*|*|1|0|
+|Notation till now|Notación hasta ahora|*|*|*|1|0|
+|Edit Annotation|Editar Comentario|*|*|*|1|0|
+|Enter annotation|Escribe el comentario|*|*|*|1|0|
+|Show Position in Text|Mostrar Posición en Texto|*|*|*|1|0|
+|Current Position|Posición Actual|*|*|*|1|0|
+|Press piece keys for position information|Pulsa las teclas de las piezas para información de la posición|*|*|*|1|0|
+|White pieces|Piezas blancas|*|*|*|1|0|
+|Black pieces|Piezs negras|*|*|*|1|0|
+|Side to move|Bando que juega|*|*|*|1|0|
+|All white pieces|Todas las piezas blancas|*|*|*|1|0|
+|All black pieces|Todas las piezas negras|*|*|*|1|0|
+|White to move|Turno de las blancas|*|*|*|1|0|
+|Black to move|Turno de las negras|*|*|*|1|0|
+|Copy FEN|Copiar FEN|*|*|*|1|0|
+|FEN copied to clipboard|Copiar FEN al portapapeles|*|*|*|1|0|
+|Paste FEN|Pegar FEN|*|*|*|1|0|
+|Invalid FEN string|FEN inválido|*|*|*|1|0|
+|Position set from FEN|Posición configurada a partir del FEN|*|*|*|1|0|
+|Position Setup|Configuración de Posición|*|*|*|1|0|
+|Game State|Estado de la Partida|*|*|*|1|0|
+|White King Side|Enroque Corto de las Blancas|*|*|*|1|0|
+|White Queen Side|Enroque Largo de las Blancas|*|*|*|1|0|
+|Black King Side|Enroque Corto de las Negras|*|*|*|1|0|
+|Black Queen Side|Enroque Largo de las Negras|*|*|*|1|0|
+|Board cleared|Tablero vaciado|*|*|*|1|0|
+|Position set up successfully|Posición configurada con éxito|*|*|*|1|0|
+|Warning|Advertencia|*|*|*|1|0|
+|The position appears to be illegal (e.g., Kings touching or side to move can capture King). Continue anyway?|La posición paree ilegal (por ejemplo, los reyes se tocan o el bando que tiene que mover puede capturar al rey. ¿Continuar de todas formas?|*|*|*|1|0|
+|Invalid Position|Posición no válida|*|*|*|1|0|
+|White King is Missing!|¡Falta el rey blanco!|*|*|*|1|0|
+|Black King is missing!|¡Falta el rey negro!|*|*|*|1|0|
+|Search by FEN|Buscar por FEN|*|*|*|1|0|
+|Feature Restricted|Característica Restringida|*|*|*|1|0|
+|Please upgrade to pro to use this feature|Por favor, actualice a pro para usar esta característica|*|*|*|1|0|
+|Speak|Hablar|*|*|*|1|0|
+|Speak Position|Decir Posición|*|*|*|1|0|
+|Speak Annotation|Decir Comentario|*|*|*|1|0|
+|Speak Last Move|Decir Última Jugada|*|*|*|1|0|
+|Select Game|seleccionar partida|*|*|*|1|0|
+|Game area|Área de la partida|*|*|*|1|0|
+|Annotation|Comentario|*|*|*|1|0|
+|Board|Tablero|*|*|*|1|0|
+|Engine Suggestions|Sugerencias del motor|*|*|*|1|0|
+|Load a PGN file to view games|Cargue un archivo PGN para ver partidas|*|*|*|1|0|
+|Beginning of the game|Inicio de la partida|*|*|*|1|0|
+|No move|No hay jugada|*|*|*|1|0|
+|Already at the beginnig of the game|Ya está al principio de la partida|*|*|*|1|0|
+|End of the game|Fin de la partida|*|*|*|1|0|
+|No next move available|No hay siguiente jugada disponible|*|*|*|1|0|
+|No annotation for this move|No hay comentario para esta jugada|*|*|*|1|0|
+|Unknown|Desconocido|*|*|*|1|0|
+|Engine is disabled. Enable engine to see suggestions.|El motor está desactivado. Active un motor para ver sugerencias.|*|*|*|1|0|
+|OK|Aceptar|*|*|*|1|0|
+|Cancel|Cancelar|*|*|*|1|0|
+|Side Line|Variante|*|*|*|1|0|
+|Mainline|Línea principal|*|*|*|1|0|
+|Kingside|Enroque corto|*|*|*|1|0|
+|Queenside|Enroque largo|*|*|*|1|0|
+|Clear Board|Vaciar Tablero|*|*|*|1|0|
+|Initial Position|Posición Inicial|*|*|*|1|0|
+|Set Position|Configurar Posición|*|*|*|1|0|
+|Promote to mainline|Ir a la línea principal|*|*|*|1|0|
+|Good move|Buena|*|*|*|1|0|
+|Mistake|Mala|*|*|*|1|0|
+|Brilliant move|Brillante|*|*|*|1|0|
+|Blunder|Perdedora|*|*|*|1|0|
+|Speculative move|Interesante|*|*|*|1|0|
+|Dubious move|Dudosa|*|*|*|1|0|
+|Forced move|Forzada|*|*|*|1|0|
+|Singular move|Única|*|*|*|1|0|
+|Worst move|La peor|*|*|*|1|0|
+|Drawish position|Posición de tablas|*|*|*|1|0|
+|Quiet position|Posición tranquila|*|*|*|1|0|
+|Active position|Posición activa|*|*|*|1|0|
+|Unclear position|Poco claro|*|*|*|1|0|
+|White has a slight advantage|Ligera ventaja blanca|*|*|*|1|0|
+|Black has a slight advantage|Ligera ventaja negra|*|*|*|1|0|
+|White has a moderate advantage|Ventaja blanca|*|*|*|1|0|
+|Black has a moderate advantage|Ventaja negra|*|*|*|1|0|
+|White has a decisive advantage|Ventaja decisiva blanca|*|*|*|1|0|
+|Black has a decisive advantage|Ventaja decisiva negra|*|*|*|1|0|
+|White is in zugzwang|Blancas en zugzwang|*|*|*|1|0|
+|Black is in zugzwang|Negras en zugzwang|*|*|*|1|0|
+|White has moderate counterplay|Contrajuego moderado blanco|*|*|*|1|0|
+|Black has moderate counterplay|Contrajuego moderado negro|*|*|*|1|0|
+|White has decisive counterplay|Contrajuego decisivo blanco|*|*|*|1|0|
+|Black has decisive counterplay|Contrajuego decisivo negro|*|*|*|1|0|
+|White is under moderate time pressure|Blancas apuradas de tiempo|*|*|*|1|0|
+|Black is under moderate time pressure|Negras apuradas de tiempo|*|*|*|1|0|
+|White is under severe time pressure|Blancas muy apuradas de tiempo|*|*|*|1|0|
+|Black is under severe time pressure|Negras muy apuradas de tiempo|*|*|*|1|0|
+|Novelty|Novedad|*|*|*|1|0|
+|Move Decision|Decisión de Jugada|*|*|*|1|0|
+|Do you want to add this move to the mainline or as a side variation?|¿Quiere añadir esta jugada como línea principal o como variante?|*|*|*|1|0|
+|Castling Decision|Decisión del Enroque|*|*|*|1|0|
+|Both kingside (0-0) and queenside (0-0-0) castling are possible. Choose the desired move.|Ambos enroques son posibles. Elija el que desee.|*|*|*|1|0|
+|Choose a variation|Elija una variante|*|*|*|1|0|
+|Select a variation to continue|Seleccione una variante para continuar|*|*|*|1|0|
