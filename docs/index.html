@@ -1,0 +1,348 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Tutorial de SK Chess</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header>
+<h1>Tutorial de SK Chess</h1>
+<p>Creado por Quico Saval.</p>
+<p>Actualizado por última vez en mayo de 2026.</p>
+</header>
+<main>
+<article>
+<h2>Introducción</h2>
+<h3>¿Qué es?</h3>
+<p>SK Chess es el primer programa de ajedrez para Windows desarrollado por una persona ciega pensando en que sea compatible con los lectores de pantalla, tanto JAWS como NVDA.</p>
+<h3>Utilidades</h3>
+<p>Algunas de las cosas que puedes hacer con SK Chess son:</p>
+<ul>
+<li>Navegar por una partida de ajedrez, avanzando y retrocediendo por las jugadas.</li>
+<li>Leer comentarios y variantes.</li>
+<li>Ejecutar jugadas en el tablero.</li>
+<li>Conocer la posición actual de las piezas en el tablero.</li>
+<li>Analizar cualquier posición con un motor de ajedrez.</li>
+<li>Entrenar.</li>
+</ul>
+<h3>Principios fundamentales</h3>
+<p>Los dos principios que rigen el manejo de SK Chess son la sencillez y la accesibilidad. Todo el programa se puede manejar con las teclas que usamos habitualmente en Windwos: <kbd>tab</kbd>, flechas o barra de menú. Además, muchas de las funciones tienen atajos de teclado asociados.</p>
+<p>No requieres ninguna función avanzada del lector de pantalla (como el cursor de JAWS o el navegador de objetos de NVDA) para manejar el programa.</p>
+<h3>Enfoque del tutorial</h3>
+<p>Este documento no pretende cubrir todas las funciones ni ser el manual oficial del programa. Tanto el software como su documentación están en inglés. Además, la documentación sirve para la versión 1.1 beta y, en el momento de escribir esto, la última versión es la 1.4. Por lo tanto, muchas funciones han cambiado y otras han sido añadidas.</p>
+<p>En este tutorial solo encontrarás aquellas funciones que he podido probar, explicadas de la forma lo más práctica posible.</p>
+<p>Ten en cuenta que todas las explicaciones las estoy basando en mi experiencia personal con el uso del programa. Si hay alguna función que no esté cubierta aquí y la has probado puedes contactarme y explicármela para que la añada.</p>
+<h4>Conocimientos previos</h4>
+<p>Asumiré que tienes conocimientos básicos del manejo de Windows como:</p>
+<ul>
+<li>Gestión de archivos y carpetas.</li>
+<li>Descarga e instalación de programas.</li>
+<li>Exploración de la brra de menú y de los cuadros de diálogo.</li>
+<li>Abrir y guardar archivos.</li>
+<li>Leer, seleccionar, cortar, copiar, pegar y modificar textos.</li>
+</ul>
+<p>En cuanto al ajedrez, los conocimientos que deberías tener son:</p>
+<ul>
+<li>El sistema algebraico.</li>
+<li>La forma en la que las personas ciegas decimos las jugadas (Ana, Bella, César, etcétera).</li>
+<li>Ser capaz de seguir una partida en un tablero.</li>
+</ul>
+<p>Además, si has manejado alguna plataforma como lichess mucho de lo que explique aquí te será familiar.</p>
+</article>
+<article>
+<h2>Preparación del programa</h2>
+<h3>Descarga e instalación</h3>
+<ol>
+<li><a href="https://accessiblechess.in">Entra en la web oficial del programa.</a></li>
+<li>Busca el enlace que empieza por <samp>Download</samp>. Es el enlace de descarga y te dirá cuál es la última versión del programa. Por ejempo: <samp>Download SK Chess v1.4</samp>.</li>
+<li>Pulsa sobre dicho enlace y descargarás el instalador.</li>
+<li>Por si acaso, desactiva el antivirus para poder instalar el programa.</li>
+<li>Navega a la carpeta donde se haya descargado el instalador y ejecútalo.</li>
+<li>Si te sale la pantalla de <samp>Windows Smart Scrreen</samp> primero dale al enlace de <samp>más información</samp> y luego al botón <samp>ejecutar de todas formas<//samp>.</li>
+<li>A partir de aquí es un proceso típico de instalación. Eliges la carpeta de instalación, decides si quieres crear un icono en el escritorio y lo instalas. Antes de finalizar la instalación tendrás la opción de ejecutar el programa.</li>
+</ol>
+<h3>Configuración de diccionarios</h3>
+<p>Con todo lo que has hecho hasta ahora ya podrías usar SK Chess, pero tendrías que hacerlo en inglés. Ahora vas a configurar los diccionarios para que tu lector de pantalla lo diga en español.</p>
+<p>Ten en cuenta que los diccionarios se han basado en mi experiencia de uso con el programa, por lo que puede haber tanto errores de traducción como cosas sin traducir. Si encuentras algo contacta conmigo y explícame lo que intentabas hacer y lo que te ha dicho el lector de pantalla para que pueda añadir o modificar esa expresión en el diccionario.</p>
+<h4>JAWS</h4>
+<ol>
+<li><a href="https://github.com/quicosv/tutorial-sk-chess/diccionarios/_core.jdf">Descarga la última verisón del diccionario para JAWS.</li>
+<li>Localízalo donde se haya descargado (Es importantísimo que se llame <samp>_core.JDF</samp>) y cópialo.</li>
+<li>Pulsa <kbd>Windows</kbd>+<kbd>r</kbd> para abrir el diálogo <samp>ejecutar</samp>.</li>
+<li><p>Escribe esto:</p>
+<pre><code>appdata</code></pre>
+<p>Y pulsa enter.</p></li>
+<li>Entra en la carpeta <samp>Roaming</samp>.</li>
+<li>Entra en la carpeta <samp>Freedom Scientific</samp>.</li>
+<li>Entra en la carpeta <samp>JAWS</samp>.</li>
+<li>Entra en la carpeta de la versión de JAWS que estás ejecutando.</li>
+<li>Entra en la carpeta <samp>Settings</samp>.</li>
+<li>Entra en la carpeta <samp>esn</samp>.</li>
+<li>Pega el diccionario allí.</li>
+</ol>
+<h4>NVDA</h4>
+<ol>
+<li>Verifica que tengas el complemento <q>Application dicctionary</q>.</li>
+<li><a href="https://github.com/quicosv/tutorial-sk-chess/diccionarios/sk_chess.dic">Descarga la última verisón del diccionario para NVDA.</li>
+<li>Localízalo donde se haya descargado (Es importantísimo que se llame <samp>sk_chess.dic</samp>) y cópialo.</li>
+<li>Pulsa <kbd>Windows</kbd>+<kbd>r</kbd> para abrir el diálogo <samp>ejecutar</samp>.</li>
+<li><p>Escribe esto:</p>
+<pre><code>appdata</code></pre>
+<p>Y pulsa enter.</p></li>
+<li>Entra en la carpeta <samp>Roaming</samp>.</li>
+<li>Entra en la carpeta <samp>nvda</samp>.</li>
+<li>Entra en la carpeta <samp>speechDicts</samp>.</li>
+<li>Entra en la carpeta <samp>appDicts</smap>.</li>
+<li>Pega el diccionario allí.</li>
+</ol>
+</article>
+<article>
+<h2>La interfaz del programa</h2>
+<h3>Las áreas del programa</h3>
+<p>SK Chess tiene cinco áreas principales. Puedes pasar de una a otra con <kbd>tab</kdb> o con <kdb>shift</kbd>+<kbd>tab</kbd>.</p>
+<h4>Selección de partida</h4>
+<p>El foco caerá aquí cada vez que abras el programa. Si abres un archivo PGN con varias partidas aquí podrás seleccionar la que quieres ver. De cada partida conocerás un resumen de las etiquetas (torneo, jugadores y resultado).</p>
+<h4>Área de la partida</h4>
+<p>Aquí podrás navegar por las jugadas de la partida con las flechas izquierda y derecha. El lector de pantalla las irá verbalizando. También sabrás en qué punto hay comentarios y variantes y podrás hacer jugadas en el tablero.</p>
+<h4>Comentario</h4>
+<p>Si hay un comentario en texto para la posición en la que estás aquí podrás leerlo. Si no te dirá que no hay comentario para esta jugada.</p>
+<h4>Tablero</h4>
+<p>Aquí vas a ver los datos de la partida (torneo, lugar, fecha, ronda, jugdores con su Elo y resultado) y la secuencia de jugadas hasta la posición en la que estás.</p>
+<h4>Sugerencias del motor</h4>
+<p>Si tienes activado el motor verás las líneas que te sugiere para la posición en la que estás.</p>
+<p>Si no lo tienes activado te informará de ello y te dirá que lo actives para ver sugerencias.</p>
+<h3>Otros elementos de la interfaz</h3>
+<h4>Teclas rápidas</h4>
+<p>Aunque puedes acceder a mucha información a través de las áreas del programa, esa no siempre es la forma más rápida. Por eso, muchas funciones del programa tienen una tecla rápida asociada que irás aprendiendo con la práctica.</p>
+<h4>Barra de menú</h4>
+<p>Como casi todos los programas que hayas podido usar en Windows, SK Chess tiene una barra de menús bien organizada que te permitirá acceder a sus funciones y recordar sus teclas rápidas.</p>
+<h4>Cuadros de diálogo sencillos y accesibles</h4>
+<p>Los cuadros de diálogo son sencillos de utilizar y todos sus componentes están perfectamente etiquetados. Además, cuando tengas que abrir o guardar algo te encontrarás con un cuadro de diálogo estándar (como el de cualquier otra aplicación).</p>
+</article>
+<article>
+<h2>Apuntar partidas</h2>
+<p>Supongamos que has jugado una partida y quieres apuntarla en el ordenador o que estás viendo cualquier recurso de ajedrez (libro, vídeo, podcast o artículo) y quieres guardarte alguna partida que se esté comentando allí. SK Chess te permite hacerlo de una manera rápida y sencilla.</p>
+<p>Cuando arrancas SK Chess siempre empezará en una partida nueva. Pero siempre puedes crear una con <kbd>control</kdb>+<kbd>n</kbd>.</p>
+<h3>Apuntar las jugadas</h3>
+<h4>Rapidez y confirmación por sonidos</h4>
+<p>La principal característica de la forma de escribir jugadas en SK Chess es que no hay que pulsar <kbd>espacio</kbd> o <kbd>enter</kbd>. En cuanto escribas algo y SK Chess lo reconozca como jugada legal se ejecutará automáticamente en el tablero.</p>
+<h4>Jugadas <q>estándar</q></h4>
+<p>Estamos hablando de jugadas que solo mueven una pieza a una casilla vacía. Es decir, ni capturas, ni jaques, ni promoción de peones.</p>
+<p>Si ya has usado algún programa como winboard o alguna plataforma como lichess ya sabes hacer las jugadas porque es exactamente igual. Por si acaso, aquí tienes un repaso rápido.</p>
+<ul>
+<li>Si la jugada es de peón tienes que escribir la casilla de destino.</li>
+<li>Si la jugada es de pieza deberás escribir la inicial de la pieza <em>en mayúsucla</em> seguido de la casilla de destino. Las iniciales de las piezas son:
+<ul>
+<li>K para el rey.</li>
+<li>Q para la dama.</li>
+<li>R para la torre.</li>
+<li>N para el caballo.</li>
+<li>B para el alfil.</li>
+</ul></li>
+</ul>
+<h4>Capturas</h4>
+<p>SK Chess soporta el método estándar de anotar las capturas que consiste en escribir la pieza o la columna en la que estaba el peón, seguido de la letra x y de la casilla en la que está la pieza o el peón que quieres capturar. Por ejemplo, <q>Nxd5</q> o <q>axb6</q>. Si la captura es al paso la casilla que hay que escribir es en la que se queda el peón después de la captura.</p>
+<p>Si quieres puedes escribir las capturas más rápidamente omitiendo la x. Así, los dos ejemplos anteriores quedarían <q>Nd5</q> y <q>ab6</q>.</p>
+<p>Es muy importante recordar que las iniciales de las piezas siempre van en mayúsucla para evitar confusiones. Por ejemplo: imagina que es el turno de las negras y tienes una pieza blanca en César 6, un peón negro en Bella 7 y un alfil negro en David 7. Si escribes <q>Bc6</q> (con la B mayúscula) estarás capturando con el alfil, mientras que si escribes <q>bxc6</q> (con la b minúscula) estarás capturando con el peón.</p>
+<h4>Enroque</h4>
+<p>En SK Chess el enroque se hace de una manera muy rápida. Simpelemte debes escribir <q>00</q> (dos ceros seguidos) y ocurrirá lo siguiente:</p>
+<ul>
+<li>Si solo se puede hacer el enroque corto se hará automáticamente.</li>
+<li>Si solo se puede hacer el enroque largo se hará automáticamente.</li>
+<li>Si ambos enroques son posibles aparecerá un cuadro de diálogo que te permitirá elegir el que quieres hacer.</li>
+</ul>
+<h4>Jaque y mate</h4>
+<p>Cuando escribas una jugada que sea jaque o mate no hace falta que pongas un símbolo para indicarlo. SK Chess lo detectará automáticamente. Te hará el sonido correspondiente y cuando leas esa jugada te dirá si es jaque o mate.</p>
+<h4>Promoción</h4>
+<p>La forma más rápida de hacer la promoción es escribir la jugada y la inicial en mayúscula de la pieza a la que quieres promocionar. Por ejemplo, si quieres que un peón avance a Eva 8 y promocione a dama escribe <q>e8Q</q>. Y si quieres que un peón de Eva 7 capture en David 8 y promocione, por ejemplo, a caballo debes escribir <q>ed8N</q>.</P>
+<h3>Confirmación</h3>
+<h4>Sonidos</h4>
+<p>Cada vez que hagas una jugada legal SK Chess hará el sonido correspondiente. Existen sonidos para movimientos de piezas, capturas, jaques y promociones.</p>
+<p>Cualquier jugada que dé jaque tendrá el sonido de jaque independientemente de que además sea captura o promoción.</p>
+<h4>Última jugada</h4>
+<p>Con <kbd>alt</kdb>+<kbd>m</kbd> podrás escuchar la jugada en la que estás. Siempre se verbalizará con la notación a la que estamos acostumbrados (Ana, Bella, César, etcétera).</p>
+<h4>Notación hasta ahora</h4>
+<p>Se refiere a conocer la secuencia de jugadas que te lleva desde la posición inicial hasta la jugada en la que estás.</p>
+<p>Si vas al área del tablero podrás revisarlo tal y como se escribe en un archivo PGN. Por ejemplo, cuando el caballo se mueva a f3 te dirá <samp>Nf3</samp>.</p>
+<p>Si usas el comando de <samp>notación hasta ahora</samp>, cuya tecla rápida es <kbd>alt</kbd>+<kbd>n</kbd>, encontrarás un cuadro de edición de solo lectura con la lista de jugadas en el formato en el que las decimos las personas ciegas. Aquí, siguiendo el ejemplo anterior, cuando el caballo vaya a f3 sí que te dirá <samp>caballo Félix 3</samp>.</p>
+<h3>Borrar jugadas</h3>
+<p>Si te has equivocado al escribir una jugada puedes borrarla con <kbd>alt</kbd>+<kbd>d</kdb>. Ten en cuenta que no solo borrará esa jugada, sino que se eliminará lo que haya desde ahí hasta el final de la partida.</p>
+<h3>Comentarios</h3>
+<p>Un comentario es un texto que se insertará después de la jugada actual. Aquí tienes algunas ideas sobre su utilidad.</p>
+<ul>
+<li>En una partida propia te puede servir para explicar lo que estabas pensando en ese momento.</li>
+<li>En un análisis propio puedes utilizarlo para explicar lo que ocurre en esa posición.</li>
+<li>Al pasar la partida de un libro, revista, audio o vídeo puedes usar el comentario para resumir lo que se explique sobre esa posición.</li>
+</ul>
+<p>Para escribir un comentario pulsa <kbd>control</kbd>+<kbd>a</kbd>. Aparecerá un cuadro de edición en el que escribir. Cuando termines pulsa <kbd>enter</kdb> y se insertará el comentario.</p>
+<p>Para eliminar un comentario pulsa <kbd>control</kbd>+<kbd>a</kbd>, borra todo lo que haya en el cuadro de edición y pulsa <kbd>enter</kbd>.</p>
+<h3>Variantes</h3>
+<p>Una variante sirve para indicar una jugada alternativa en una posición. Algunos ejemplos son:</p>
+<ul>
+<li>En tus propias partidas sirve para apuntar cualquier jugada que estabas pensando y descartaste o cualquier idea que te sugiera el motor o tu entrenador.</li>
+<li>Al apuntar otra partida sirve para anotar las jugadas que sugiere quien la está analizando.</li>
+<li>Al estudiar una lección sirve para apuntar las posibles respuestas de nuestro rival o cuál es la jugada que hay que hacer y por qué otras no son tan buenas.</li>
+</ul>
+<p>Para insertar una variante localiza la posición en la que quieres insertarla y haz la jugada. Aparecerá un cuadro de diálogo que te preguntará si quieres que la jugada que estás insertando sea variante o línea principal.</p>
+<p>Cuando estás viendo una partida de un libro a veces te cuentan primero las variantes y luego la línea principal.</p>
+<p>En general, cuando estás mirando una partida deja como línea principal lo que sucedió en la partida. Cuando estás viendo otra cosa (como al teoría de una apertura) ya se te indicará cuál es la línea principal.</p>
+<h3>Cuestiones avanzadas</h3>
+<p>Lo que se comenta en este apartado es algo un poco más avanzado. No es una edición que se pueda hacer directamente con SK Chess, pero nos aprovechamos de que sí que lee el resultado.</p>
+<p>La técnica consiste en copiar la partida con <kdb>control</kbd>+<kbd>c</kbd>, pegarla en un editor de textos, hacer la edición, pegar el resultado en SK Chess con <kbd>control</kbd>+<kbd>v</kbd> y leer el resultado. Habrás conseguido sobreescribir la partida que tenías en SK Chess con la edición que has hecho en el editor de textos.</p>
+<h4>Lo básico de los PGN</h4>
+<p>Un PGN no es más que un archivo de texto en el que se van almacenando las partidas. Una partida se separa de otra por una línea en blanco.</p>
+<p>Cada partida tiene dos partes. La zona de las etiquetas y la zona de las jugadas. Ambas zonas se separan con una línea en blanco.</p>
+<p>La zona de las etiquetas se identifica porque las líneas van entre corchetes. No nos preocuparemos de ella ahora, pero sí es bueno que sepas que aquí se almacenan los datos de la partida como el torneo, la fecha, los jugadores o el resultado.</p>
+<p>Las jugadas se apuntan como las escribes en el SK Chess. Siempre habrá un número, la jugada de las blancas y la jugada de las negras.</p>
+<p>Los comentarios aparecen entre llaves y las variantes aparecen entre paréntesis.</p>
+<h4>Símbolos de valoración</h4>
+<p>Si en la partida aparecen símbolos como los de jugada buena, brillante, mala, igualdad, ventaja blanca, ventaja negra o novedad SK Chess los anuncia en cuanto llegas a esa jugada.</p>
+<p>Esos símbolos se anotan después de la jugada. Empiezan con un signo de dólar y van seguidos de un número. Cada uno significa una cosa: por ejemplo, <code>$1</code> representa un signo de admiración y <code>$2</code> significa un signo de interrogación.</p>
+<p>Haz una prueba. En SK Chess vamos a apuntar una partida. Apunta esta secuencia de jugadas.</p>
+<ul>
+<li>Eva 4.</li>
+<li>Eva 5.</li>
+<li>Alfil César 4.</li>
+<li>Caballo César 6.</li>
+<li>Dama Héctor 5.</li>
+<li>Caballo Félix 6.</li>
+</ul>
+<p>Vamos a suponer que quieres ponerle dos interrogaciones a la última jugada de las negras porque no ven el mate.</p>
+<ol>
+<li>Copia la partida con <kbd>control</kbd>+<kdb>c</kbd>.</li>
+<li>Crea un documento de texto en el bloc de notas o el editor de texto que prefieras. Es importante que no uses un procesador de textos como Word.</li>
+<li>Vete al final del archivo. Encontrarás un asterisco.</li>
+<li><p>Antes del asterisco escribe <code>$4</code> y un espacio. El documento completo te quedará así:</p>
+<pre><code>[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+
+1. e4 e5 2. Bc4 Nc6 3. Qh5 Nf6 $4 *</code></pre></li>
+<li>Selecciona todo el documento y cópialo.</li>
+<li>Vuelve a SK Chess y pégalo con <kbd>control</kbd>+<kbd>v</kbd>.</li>
+<li>Avanza por la partida con la flecha derecha. Cuando llegues a <q>caballo Félix 6</q> te dirá <q>perdedora</q>.</li>
+</ol>
+<h4>Jugadas nulas</h4>
+<p>Las jugadas nulas sirven para hacer jugar nuevamente al bando que ha hecho el último movimiento. Es como pasarle el turno sin especificar ninguna jugada.</p>
+<p>En una partida puede servir para explicar los planes de un jugador o lo que se está amenazando en una posición concreta. En un análisis puede servir para saber por qué el motor ha recomendado una jugada determinada.</p>
+<p>Las jugadas nulas se indican con dos guiones. Si quieres hacer una jugada nula para las blancas recuerda que deberás anteponer el número de movimiento correspondiente.</p>
+<h3>Guardar la partida</h3>
+<p>Cuando sales de SK Chess el trabajo que hayas hecho se perderá sin que el programa te pregunte si quieres guardarlo. Por lo tanto, si alguna modificación es importante asegúrate de guardar antes de pulsar <kbd>alt</kbd>+<kbd>f4</kbd>.</p>
+<p>El diálogo de guardado de SK Chess está diseñado para añadir partidas a un archivo. Por lo tanto, no te va a permitir reemplazar partidas.</p>
+<p>Cuando ejecutas el comando para guardar la partida, cuya tecla rápida es <kbd>control</kbd>+<kbd>s</kbd>, primero te aparecerá un diálogo en el que deberás introducir la información de las distintas etiquetas de la partida. Ten en cuenta que estos cuadros de edición estarán en blanco independientemente de si estás editando una partida nueva o una existente.</p>
+<p>Una vez que termines de rellenra la información y aceptes ese diálogo podrás seleccionar el archivo PGN en el que quieres guardar esa partida.</p>
+<p>Si quieres reemplazar una partida tendrás que hacerlo a través del editor de textos.</p>
+</article>
+<article>
+<h2>Leer partidas</h2>
+<h3>Abrir un archivo PGN</h3>
+<p>El comando para abrir un PGN es <kbd>control</kbd>+<kbd>o</kbd>. Te aparecerá un cuadro de diálogo para abrir archivos como los que has usado en cualquier otra aplicación.</p>
+<h3>Seleccionar una partida</h3>
+<p>Cuando abres un archivo PGN siempre se seleccionará la primera partida que contenga. Si no es esa la que quieres ver tienes que llegar con <kbd>tab</kbd> o <kbd>shift</kbd>+<kbd>tab</kbd> al área de selección de partidas. Es un cuadro combinado que podrás recorrer con las flehcas arriba y abajo. Cuando hayas encontrado la que quieres ver puedes pulsar <kbd>tab</kbd> para ir al área de la partida y verla.</p>
+<h3>Moverse por la partida</h3>
+<p>Con la flecha derecha puedes avanzar jugada a jugada por la partida. Notarás que las va verbalizando con el sistema al que estamos acostumbrados (Ana, Bella, César, etcétera).</p>
+<p>Con la flecha izquierda retrocedes. Observa que te dice la casilla de origen y la de destino de la pieza que está moviéndose. Según el desarrollador, esto es muy útil si entrenas ajedrez a la ciega porque te permite recordar dónde estaba la pieza antes de la última jugada.</p>
+<p>Si quieres ir al principio o al final puedes hacerlo con <kbd>inicio</kbd> y <kbd>fin</kbd> respectivamente.</p>
+<h3>Leer comentarios</h3>
+<p>Cuando pasas por una jugada que tiene un comentario SK Chess hará un sonido. Si quieres leerlo puedes pulsar <kbd>alt</kbd>+<kbd>a</kbd> o tabular hasta el área del comentario.</p>
+<p>En el área del comentario podrás leer el texto con los comandos habitulaes de lectura, por lo que cuando quieras moverte por la partida deberás cambiar de área.</p>
+<h3>Leer variantes</h3>
+<p>Cuando haya varias jugadas posibles en una posición se te presentará un diálogo para que elijas la variante que quieres ver. La línea principal siempre será la última de la lista y la que estará seleccionada por defecto. Con las flechas arriba y abajo selecionas la que quieres ver y con la flecha derecha avanzarás por esa línea.</p>
+<p>Cuando hayas terminado de revisar una variante puedes pulsar la <kbd>m</kbd> y te llevará a la posición en la que habías seleccionado esa línea.</p>
+</article>
+<article>
+<h2>Consultar la posición</h2>
+<p>Con SK Chess puedes consultar la posición actual y copiarla en formato FEN.</p>
+<h3>Información sobre la posición actual</h3>
+<p>Con <kbd>alt</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> accedes a un cuadro de diálogo que te dará toda la infomración de la posición actual.</p>
+<p>Puedes leer la información sobre a quién le toca jugar y la posición de cada pieza porque es un cuadro de edición de solo lectura. Además, tienes distintas teclas rápidas a tu disposición que también se explican en ese diálogo.</p>
+<ul>
+<li>Con la <kbd>m</kbd> podrás saber el color del bando al que le toca jugar.</li>
+<li>Con las iniciales de cada pieza en mayúsuclas conocerás la posición de las distintas piezas blancas.</li>
+<li>Con las iniciales de cada pieza en minúscula conocerás la posición de las distintas piezas negras.</li>
+<li>Con el <kbd>1</kbd> leerás la posición de todas las piezas blancas.</li>
+<li>Con el <kbd>2</kbd> leerás la posición de todas las piezas negras.</li>
+</ul>
+<h3>Copiar la posición actual</h3>
+<p>Puedes copiar al portapapeles la posición actual en formato FEN, que es el estándar del formato PGNG. No entraremos en detalles sobre cómo se construye, pero básicamente describe la situación de cada fila del tablero, de quién es el turno, qué bando se puede enrocar o el número de jugada actual. Para copiar esto al portapapeles tienes que pulsar <kbd>control</kbd>+<kbd>shift</kbd>+<kbd>c</kbd>.</p>
+</article>
+<article>
+<h2>Configurar posiciones</h2>
+<p>SK Chess te permite configurar una posición distinta de la inicial. Útil si estás recopilando posiciones de táctica, medio juego o finales. Puedes configurarla manualmente desde el propio programa o pegarla desde el portapapeles.</p>
+<h3>Configurar una posición</h3>
+<p>Con <kbd>control</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> accedes a un diálogo que te permite configurar la posición.</p>
+<p>Ten en cuenta que debes seleccionar el bando que juega, dónde se puede enrocar cada uno y la posición de cada pieza. También existen botones para vaciar el tablero y para configurar la posición inicial, es decir, con la que normalmente se empieza una partida.</p>
+<p>Si la configuración es correcta se establecerá la posición en el tablero y podrás ejecutar jugadas a partir de ahí. Si es ilegal también te lo advertirá.</p>
+<h3>Pegar una posición</h3>
+<p>Si tienes una posición en formato FEN puedes copiarla al portapapeles y pegarla en SK Chess con <kbd>control</kbd>+<kbd>shift</kbd>+<kbd>v</kbd>. Eso te permitirá revisarla de una forma más intuitiva.</p>
+</article>
+<article>
+<h2>Analizar con el motor</h2>
+<p>SK Chess te permite analizar cualquier posición con un motor de ajedrez que tengas en tu PC. Podrás ver la evaluación, la profundidad y las jugadas que te sugiere. También podrás ejecutar en el tablero cualquiera de las sugerencias.</p>
+<h3>Seleccionar el motor</h3>
+<p>La tecla rápida para seleccionar el motor de ajedrez es <kbd>control</kbd>+<kbd>e</kbd>. Esto puede generar conflictos con tu lector de pantalla por ser la combinación para seleccionar todo, cosa que hace que SK Chess lo interprete como otro comando. Por lo tanto, o bien ejecutas antes la combinación para que tu lector de pantalla deje pasar la situiente tecla o accedes a esta opción a través de los menús.</p>
+<p>Una vez que hayas accedido te encontrarás con un cuadro de diálogo estándar que te permitirá abrir el archivo ejecutable (.exe) del motor de ajedrez que te hayas descargado.</p>
+<h3>Configurar el motor</h3>
+<p>Con <kbd>control</kbd>+<kbd>g</kbd> accederás a un cuadro de diálogo que te permite configurar un par de parámetros del motor: el número de líneas y la cantidad de jugadas a mostrar.</p>
+<p>El número de líneas es la cantidad de sugerencias diferentes que te dará el motor. Si pones pocas se alcanzará una profundidad muy alta más rápido. Si pones más podrás darte cuenta del tipo de ventaja que existe en opinión del motor (en función de si hay pocas o muchas jugadas que la mantienen).</p>
+<p>El número de jugadas se refiere a la cantidad de movimientos que va a mostrarse en cada línea concreta. Si solo quieres ver la jugada que el motor cree que debes hacer en esa posición tienes que dejarlo en 1; si quieres ver esa jugada y la respuesta del rival según el motor deberás configurarlo a 2; y así sucesivamente.</p>
+<p>Cada vez que abres SK Chess la configuración del motor vuelve a los valores por defecto, que son 5 líneas y 10 jugadas a mostrar.</p>
+<h3>Activar y desactivar el motor</h3>
+<p>Puedes activar y desactivar el motor con <kbd>control</kbd>+<kbd>espacio</kbd>. Cada vez que lo hagas el lector de pantalla te dirá si lo estás activando o desactivando.</p>
+<h3>Leer líneas sugeridas</h3>
+<p>El motor actualiza sus sugerencias aproximadamente cada 10 segundos. Si intentas leer las sugerencias justo después de activar el motor puede que te diga que aún está calculando las sugerencias y tendrás que esperar.</p>
+<p>Si intentas leer las sugerencias con el motor desactivado te pedirá que lo actives para que pueda calcular.</p>
+<p>Ten en cuenta que las sugerencias del motor no se leen en el formato Ana, Bella, César, sino con las iniciales de las piezas y las coordenadas de las casillas, es decir, tal y como aparecen en un PGN o como las tendrías que apuntar en SK Chess. Po ejemplo: si el motor quiere jugar <q>caballo Félix 3</q> te lo mostrará como <q>Nf3</q>.</p>
+<h4>Desde el área de sugerencias del motor</h4>
+<p>Aquí se muestran las líneas del motor en una lista que puedes recorrer con las flechas arriba y abajo. La sugerencia 1 siempre será la mejor. Aquí leerás la evaluación, las jugadas y la profundidad.</p>
+<p>Ten en cuenta que la lista cambiará cada vez que se actualicen las sugerencias y que no están disponibles los comandos para navegar por el texto, porque las flechas izquierda y derecha avanzan y retroceden por las jugadas tal y como si estuvieras en el área de la partida.</p>
+<h4>Desde el diálogo de mostrar líneas</h4>
+<p>Esta opción se activa con <kbd>alt</kbd>+<kbd>e</kbd>. Es un cuadro de edición de solo lectura que te permitirá ver las líneas que sugiere el motor y navegar con los comandos de lectura que conoces. Se cierra con <kbd>escape</kbd>.</p>
+<p>Ten en cuenta que aquí no podrás saber la profundidad de análisis y que esta información no se actualiza automáticamente, por lo que si pasa el tiempo y quieres ver los cambios en el análisis tendrás que cerrarlo y volverlo a abrir.</p>
+<h3>Realizar jugadas del motor</h3>
+<p>Si estás en el área de sugerencias del motor puedes ejecutar la jugada de la línea en la que te encuentras pulsando espacio. Es como si la apuntaras manualmente, por lo que si ya había una jugada apuntada en esa posición te aparecerá el diálogo que ya conoces para elegir si quieres que la nueva jugada sea variante o línea principal.</p>
+</article>
+<article>
+<h2>El modo de entrenamiento</h2>
+<p>El modo de entrenamiento te sirve para practicar una línea que tengas que estudiar. Se activa y se desactiva con <kbd>control</kbd>+<kbd>t</kbd>.</p>
+<p>Cuando estés en el modo de entrenamiento tendrás que hacer una jugada para ver si coincide con la que está apuntada.</p>
+<p>Si la jugada no coincide te dirá que es incorrecta y podrás volver a intentarlo. Si coincide avanzará como si hubieras pulsado la flecha derecha y te hará la jugada del rival como si estuvieras jugando una partida contra alguien. Esto continuará hasta que llegues al final de la línea que estás estudiando.</p>
+<p>Por ejemplo. Estás estudiando la defensa siciliana para jugarla con negras. Abre el PGN en el que tengas apuntadas las jugadas, avanza para que se produzca el movimiento <q>Eva 4</q>, activa el modo entrenamiento si no lo estaba y escribe <q>c5</q>. Escucharás el sonido de la jugada realizada y te dirá el segundo movimiento de las blancas. Puedes continuar ejecutando jugadas para ver si te sabes bien esa línea.</p>
+<p>Ten en cuenta que lo que manda para el modo de entrenamiento es la línea principal. Eso supone que si en una posición tienes apuntadas varias jugadas tienes que hacer la que está considerada como lína principal. Si haces alguna que sea una variante te la dará como incorrecta.</p>
+<p>De la misma manera, si haces una jugada correcta y hay varias posibles respuestas el modo de entrenamiento siempre te hará la de la línea principal.</p>
+<p>Por lo tanto, en un PGN que contenga tu repertorio pon siempre como línea principal la jugada que vas a querer realizar.</p>
+<p>En el modo de entrenamiento también funcionan los comandos de movimiento, por lo que puedes ir con las flcehas a buscar la variante que te interese practicar en cualquier momento.</p>
+<p>Además, si en la posición a la que has llegado hay un comentario te hará el sonido y podrás leerlo como siempre. Si está bien redactado quizá te dé alguna pista del movimiento correcto.</p>
+</article>
+<article>
+<h2>Aspectos visuales</h2>
+<p>Aunque SK Chess está diseñado para usuarios de lectores de pantalla debes saber que el tablero se ve y se puede rotar con <kbd>control</kbd>+<kbd>f</kbd>. Cada vez que pulses este comando el lector de pantalla te anunciará si el tablero se ve desde el punto de vista de las blancas o de las negras.</p>
+</article>
+<article>
+<h2>Algunas aplicaciones prácticas</h2>
+<p>Aquí tienes algunas situaciones en las que SK Chess podría ayudarte. Por supuesto, no son las únicas.</p>
+<h3>Lectura de partidas comentadas en libros</h3>
+<p>Imagina que en un libro tienes una partida comentada. Pongamos que en la jugada 15 hay un análisis que llega hasta la jugada 26. Imagina que sigues la partida con el tablero y luego quieres volver a la posición para retomar la partida.</p>
+<p>Si has seguido la partida con SK Chess y has apuntado tanto la jugada de la partida como la variante puedes volver a la línea principal y verificar la posición de las piezas para ver en qué casillas estaban en la partida.</p>
+<h3>Conversión de sistemas de notación</h3>
+<p>Se conservan materiales en los que las partidas aún están apuntadas en el sistema descriptivo, que era el que se usaba antiguamente. Si vas apuntando las jugadas y vas verificando la posición cada vez que lo necesitas puedes ayudarte de SK Chess para terminar teniendo esa partida apuntada en sistema algebraico.</p>
+<h3>Práctica en plataformas de ajedrez</h3>
+<p>En las plataformas de ajedrez como lichess puedes practicar contra el ordenador a partir de una determinada posición. Sin embargo, como los editores de tablero no son accesibles la única alternativa es copiar el código FEN de la posición.</p>
+<p>Puedes generar la posición que te interesa en SK Chess y luego copiar el FEN al portapapeles para pegarlo en la otra plataforma.</p>
+<h3>Lectura de códigos FEN</h3>
+<p>Muchas webs de ajedrez hacen comentarios de posiciones que no se pueden seguir porque solo aparece el tablero de forma visual.</p>
+<p>No obstante, si tuvieras el código FEN podrías pegarlo en SK Chess y luego consultar la posición.</p>
+</article>
+<article>
+<h2>Contacto</h2>
+<p>Para cualquier sugerencia sobre el tutorial puedes ponerte en contacto conmigo a través del correo electrónico quicosv (arroba) gmail (punto) com. El correo está escrito así para tratar de evitar el spam.</p>
+</article>
+</main>
+</body>
+</html>
