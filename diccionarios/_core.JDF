@@ -98,8 +98,10 @@
 |Paste Game|Pegar Partida|*|*|*|1|0|
 |No text in clipboard|No hay texto en el portapapeles|*|*|*|1|0|
 |Pasted|Pegado|*|*|*|1|0|
+|Loaded|Cargadas|*|*|*|1|0|
 |Selected first game|Primera partida seleccionada|*|*|*|1|0|
 |games|partidas|*|*|*|1|0|
+|Loaded 1 games|Cargada una partida|*|*|*|1|0|
 |Copy Game|Copiar Partida|*|*|*|1|0|
 |Game copied to clipboard|Partida copiada al portapapeles|*|*|*|1|0|
 |Game|Partida|*|*|*|1|0|
