@@ -146,8 +146,10 @@ Show Position in Text	Mostrar Posición en Texto	1	2
 Current Position	Posición Actual	1	2
 Press piece keys for position information	Pulsa las teclas de las piezas para información de la posición	1	2
 White pieces	Piezas blancas	1	2
-Black pieces	Piezs negras	1	2
-Side to move	Bando que juega	1	2
+Black pieces	Piezas negras	1	2
+White Pieces	Piezas blancas	1	2
+Black Pieces	Piezas negras	1	2
+Side to Move	Bando que juega	1	2
 All white pieces	Todas las piezas blancas	1	2
 All black pieces	Todas las piezas negras	1	2
 White to move	Turno de las blancas	1	2
@@ -166,7 +168,7 @@ Black Queen Side	Enroque Largo de las Negras	1	2
 Board cleared	Tablero vaciado	1	2
 Position set up successfully	Posición configurada con éxito	1	2
 Warning	Advertencia	1	2
-The position appears to be illegal (e.g., Kings touching or side to move can capture King). Continue anyway?	La posición paree ilegal (por ejemplo, los reyes se tocan o el bando que tiene que mover puede capturar al rey. ¿Continuar de todas formas?	1	2
+The position appears to be illegal (e.g., Kings touching or side to move can capture King). Continue anyway?	La posición parece ilegal (por ejemplo, los reyes se tocan o el bando que tiene que mover puede capturar al rey. ¿Continuar de todas formas?	1	2
 Invalid Position	Posición no válida	1	2
 White King is Missing!	¡Falta el rey blanco!	1	2
 Black King is missing!	¡Falta el rey negro!	1	2

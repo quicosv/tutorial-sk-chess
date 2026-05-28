@@ -146,8 +146,10 @@
 |Current Position|Posición Actual|*|*|*|1|0|
 |Press piece keys for position information|Pulsa las teclas de las piezas para información de la posición|*|*|*|1|0|
 |White pieces|Piezas blancas|*|*|*|1|0|
-|Black pieces|Piezs negras|*|*|*|1|0|
-|Side to move|Bando que juega|*|*|*|1|0|
+|Black pieces|Piezas negras|*|*|*|1|0|
+|White Pieces|Piezas blancas|*|*|*|1|0|
+|Black Pieces|Piezas negras|*|*|*|1|0|
+|Side to Move|Bando que juega|*|*|*|1|0|
 |All white pieces|Todas las piezas blancas|*|*|*|1|0|
 |All black pieces|Todas las piezas negras|*|*|*|1|0|
 |White to move|Turno de las blancas|*|*|*|1|0|
@@ -166,7 +168,7 @@
 |Board cleared|Tablero vaciado|*|*|*|1|0|
 |Position set up successfully|Posición configurada con éxito|*|*|*|1|0|
 |Warning|Advertencia|*|*|*|1|0|
-|The position appears to be illegal (e.g., Kings touching or side to move can capture King). Continue anyway?|La posición paree ilegal (por ejemplo, los reyes se tocan o el bando que tiene que mover puede capturar al rey. ¿Continuar de todas formas?|*|*|*|1|0|
+|The position appears to be illegal (e.g., Kings touching or side to move can capture King). Continue anyway?|La posición parece ilegal (por ejemplo, los reyes se tocan o el bando que tiene que mover puede capturar al rey. ¿Continuar de todas formas?|*|*|*|1|0|
 |Invalid Position|Posición no válida|*|*|*|1|0|
 |White King is Missing!|¡Falta el rey blanco!|*|*|*|1|0|
 |Black King is missing!|¡Falta el rey negro!|*|*|*|1|0|
